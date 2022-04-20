@@ -1,0 +1,151 @@
+@import "variables";
+@import "mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Montserrat;
+}
+
+body {
+  background: $bgC;
+}
+//header
+.head {
+  margin: 10px auto;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 20%;
+    color: $logoC;
+    font-size: 34px;
+  }
+}
+
+.head {
+  .links {
+    li {
+      display: inline-block;
+      margin-left: 30px;
+      a {
+        display: block;
+        color: $linkC;
+        font-size: 20px;
+      }
+    }
+    li:first-child {
+      margin-left: 60px;
+    }
+  }
+}
+
+.head {
+  .headerBTNS {
+    a {
+      color: $linkC;
+      font-size: 20px;
+    }
+    a:not(:last-child) {
+      color: $linkC;
+      font-size: 20px;
+      padding: 0px 30px;
+    }
+    a:last-child {
+      padding-left: 30px;
+    }
+    justify-content: flex-end;
+  }
+}
+
+.headerRigth {
+  display: flex;
+  align-items: center;
+}
+//header
+
+//BUY/SELL
+.buy_sell_car {
+  width: 83%;
+  margin: 100px auto;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+}
+.buy_sell_car {
+  .buy_sell {
+    height: 100%;
+    width: 40%;
+    display: block;
+    text-align: center;
+    h1 {
+      font-size: 90px;
+    }
+    p {
+      text-align: left;
+      margin: 20px 0 0 60px;
+      letter-spacing: 2px;
+      font-size: 20px;
+    }
+    .sell {
+      margin-top: 20px;
+      border: 1px black solid;
+      border-radius: 19px;
+      background: white;
+      height: 50px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: #162e40;
+      font-size: 30px;
+    }
+    .buy {
+      margin-top: 10px;
+      border: 1px black solid;
+      border-radius: 19px;
+      background: white;
+      height: 50px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: #162e40;
+      font-size: 30px;
+    }
+    .buy_sellBTNS {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.buy_sell_car {
+  .mainCar {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+//BUY/SELL
+
+//mainWhitecontainer
+.mainWhitecontainer {
+  width: 100%;
+  height: 5000px; //After creating "Footer" shange to the "auto"
+  border-radius: 3em 3em 0 0;
+  background: white;
+}
+//mainWhitecontainer
