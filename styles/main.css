@@ -107,22 +107,22 @@ body {
 }
 
 .buy_sell_car .buy_sell h1 {
-  font-size: 90px;
+  font-size: 70px;
 }
 
 .buy_sell_car .buy_sell p {
   text-align: left;
-  margin: 20px 0 0 60px;
+  margin: 20px 0 0 50px;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .buy_sell_car .buy_sell .sell {
-  margin-top: 20px;
+  margin-top: 15px;
   border: 1px black solid;
   border-radius: 19px;
   background: white;
-  height: 50px;
+  height: 40px;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,7 +134,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #162e40;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .buy_sell_car .buy_sell .buy {
@@ -142,7 +142,7 @@ body {
   border: 1px black solid;
   border-radius: 19px;
   background: white;
-  height: 50px;
+  height: 40px;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,7 +154,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #162e40;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .buy_sell_car .buy_sell .buy_sellBTNS {
@@ -189,5 +189,54 @@ body {
   height: 5000px;
   border-radius: 3em 3em 0 0;
   background: white;
+}
+
+.threeWay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.threeWay .boldTXT {
+  font-size: 30px;
+}
+
+.threeWay .threContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  line-height: 20px;
+}
+
+.threeWay .threContainer div {
+  border: 1px solid #adadad;
+  padding: 20px 0 20px 0;
+  border-radius: 19px;
+  background: #fafafa;
+  width: 26%;
+}
+
+.threeWay .threContainer p {
+  font-size: 14px;
+}
+
+.threeWay .threContainer span {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=main.css.map */

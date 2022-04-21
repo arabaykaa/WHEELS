@@ -87,41 +87,41 @@ body {
     display: block;
     text-align: center;
     h1 {
-      font-size: 90px;
+      font-size: 70px;
     }
     p {
       text-align: left;
-      margin: 20px 0 0 60px;
+      margin: 20px 0 0 50px;
       letter-spacing: 2px;
-      font-size: 20px;
+      font-size: 16px;
     }
     .sell {
-      margin-top: 20px;
+      margin-top: 15px;
       border: 1px black solid;
       border-radius: 19px;
       background: white;
-      height: 50px;
+      height: 40px;
       width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
 
       color: #162e40;
-      font-size: 30px;
+      font-size: 25px;
     }
     .buy {
       margin-top: 10px;
       border: 1px black solid;
       border-radius: 19px;
       background: white;
-      height: 50px;
+      height: 40px;
       width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
 
       color: #162e40;
-      font-size: 30px;
+      font-size: 25px;
     }
     .buy_sellBTNS {
       display: flex;
@@ -149,3 +149,39 @@ body {
   background: white;
 }
 //mainWhitecontainer
+//threeWay
+.threeWay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  .boldTXT {
+    font-size: 30px;
+  }
+}
+.threeWay {
+  .threContainer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 20px;
+    div {
+      border: 1px solid #adadad;
+      padding: 20px 0 20px 0;
+      border-radius: 19px;
+      background: #fafafa;
+      width: 26%;
+    }
+    p {
+      font-size: 14px;
+    }
+    span {
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  }
+}
+//threeWay
