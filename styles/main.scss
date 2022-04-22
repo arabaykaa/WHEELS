@@ -157,7 +157,7 @@ body {
   text-align: center;
   padding-top: 50px;
   .boldTXT {
-    font-size: 30px;
+    font-size: 38px;
   }
 }
 .threeWay {
@@ -185,3 +185,28 @@ body {
   }
 }
 //threeWay
+//joinElectricRevolutionMain
+.joinElectricRevolutionMain {
+  width: 83%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 100px 0 0 100px;
+  p {
+    font-size: 20px;
+    span {
+      font-size: 36px;
+      font-weight: bold;
+    }
+  }
+}
+
+.joinElectricRevolutionMain {
+  .chargeCarContainer {
+    display: flex;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+//joinElectricRevolutionMain

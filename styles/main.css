@@ -207,7 +207,7 @@ body {
 }
 
 .threeWay .boldTXT {
-  font-size: 30px;
+  font-size: 38px;
 }
 
 .threeWay .threContainer {
@@ -238,5 +238,39 @@ body {
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+.joinElectricRevolutionMain {
+  width: 83%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0 0 100px;
+}
+
+.joinElectricRevolutionMain p {
+  font-size: 20px;
+}
+
+.joinElectricRevolutionMain p span {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.joinElectricRevolutionMain .chargeCarContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.joinElectricRevolutionMain .chargeCarContainer p {
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */
